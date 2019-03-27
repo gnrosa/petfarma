@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Website Title -->
+	<title>Pet Farma</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	
+	<!-- Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Materialize Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+    
+    <!-- Materialize Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script>
+    	document.addEventListener('DOMContentLoaded', function() {
+    		var elems = document.querySelectorAll('.carousel');
+    		var instances = M.Carousel.init(elems, options);
+  		});
+
+  		// Or with jQuery
+
+  		$(document).ready(function(){
+    	$('.carousel').carousel();
+  		});
+  		
+  		document.addEventListener('DOMContentLoaded', function() {
+  			var elems = document.querySelectorAll('.parallax');
+    		var instances = M.Parallax.init(elems, options);
+  		});
+
+  		// Or with jQuery
+
+  		$(document).ready(function(){
+   		$('.parallax').parallax();
+  		});
+        
+        $(document).ready(function(){
+    	$('.tabs').tabs();
+  		});
+
+  		document.addEventListener('DOMContentLoaded', function() {
+   			var elems = document.querySelectorAll('.sidenav');
+    		var instances = M.Sidenav.init(elems, options);
+  		});
+
+  		// Or with jQuery
+
+  		$(document).ready(function(){
+    	$('.sidenav').sidenav();
+  		});
+
+    </script>
+            
+</head>
+<body>
+	<nav class="white">
+    	<div class="nav-wrapper">
+	      	<a href="#" class="brand-logo center"><img src="static/img/pata.svg" style="width: 28px;"><strong><span class="teal-text"> Pet</span><span class="pink-text">Farma</span></strong></a>
+	      	<a href="#" data-target="mobile-demo" class="sidenav-trigger teal-text"><i class="material-icons">menu</i></a>
+	      	<ul id="nav-mobile" class="right hide-on-med-and-down">
+	        	<li><a href="#" class="teal-text">Produtos</a></li>
+	        	<li><a href="#" class="teal-text">Sobre nós</a></li>
+	        	<li><a href="#" class="teal-text">Contato</a></li>
+	        	<li><a href="#" class="teal-text">Acompanhe seu pedido</a></li>
+	      	</ul>
+    	</div>
+  	</nav>
+  	<ul class="sidenav" id="mobile-demo">
+       	<li><a href="#" class="teal-text">Produtos</a></li>
+       	<li><a href="#" class="teal-text">Sobre nós</a></li>
+       	<li><a href="#" class="teal-text">Contato</a></li>
+       	<li><a href="#" class="teal-text">Acompanhe seu pedido</a></li>
+  	</ul>
+<div class="parallax-container">
+	<div class="parallax">
+		<picture>
+			<source srcset="static/img/pequeno.png" media="(max-width: 375px)">
+			<source srcset="static/img/grande.png" media="(min-width: 768px)">
+			<img srcset="static/img/medio.png">
+		</picture>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col s12 center">
+			<h4><strong>Desenvolvendo uma vida melhor para seu Pet</strong></h4>
+			<p>A paixão por fazer cada vez melhor nos orienta em cada passo na direção de uma vida mais saudável para os animais. Através de pesquisa, desenvolvimento e inovação buscamos diariamente novos caminhos e novas soluções para ser a marca sinônimo de saúde animal.</p>
+			<p>Somos focados em proporcionar o melhor tratamento para os animais e a máxima confiança para seus proprietários através da Manipulação Veterinária. Buscamos a excelência e a máxima qualidade em cada novo princípio pesquisado e medicamento manipulado. A gota exata de medicamento para um tratamento eficaz que restabeleça a saúde animal e maximize o tempo de vida dos nossos animais companheiros.</p>
+			<p>Para a PetFarma, um animal saudável é muito mais do que um animal livre de doenças. Para nós, a saúde está acima de tudo no amor e na alegria que os animais espalham a sua volta. Conveniência, alegria e segurança para que os nossos animais vivam felizes, cercados de amor e proteção. Por isso, o cuidado com sua saúde e bem-estar estão presentes em cada medicamento manipulado.</p><br>
+		</div>
+		<div class="col s12 center">
+			<h4><strong>Soluções sob medida para seu amigo!</strong></h4><br>
+		</div>
+		<div class="col m3 s6 center">
+			<img src="static/img/cachorro.svg" style="width: 100px;">
+			<h6><strong>Cães</strong></h6>
+		</div>
+		<div class="col m3 s6 center">
+			<img src="static/img/gato.svg" style="width: 100px;">
+			<h6><strong>Gatos</strong></h6>
+		</div>
+		<div class="col m3 s6 center">
+			<img src="static/img/hamster.svg" style="width: 100px;">
+			<h6><strong>Roedores</strong></h6>
+		</div>
+		<div class="col m3 s6 center">
+			<img src="static/img/tartaruga.svg" style="width: 100px;">
+			<h6><strong>Répteis</strong></h6>
+		</div>
+	</div>
+</div>
+<footer class="page-footer grey lighten-3">
+	<div class="container">
+		<div class="row">
+			<div class="col m4 s12">
+				<h5 class="teal-text">Redes Sociais</h5>
+				<ul>
+					<li class="teal-text">Facebook</li>
+					<li class="teal-text">Instagram</li>
+					<li class="teal-text">Youtube</li>
+				</ul>
+			</div>
+			<div class="col m4 s12">
+				<h5 class="teal-text">Localização</h5>
+				<ul>
+					<li class="teal-text">Avenida Armando Arruda Pereira da Silva, 2308</li>
+					<li class="teal-text">São Paulo - SP</li>
+				</ul>
+			</div>
+			<div class="col m4 s12">
+				<h5 class="teal-text">Contato</h5>
+				<ul>
+					<li class="teal-text">(11) 3333-4444</li>
+					<li class="teal-text">(11) 95555-5555</li>
+					<li class="teal-text">contato@petfarma.com.br</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright">
+		<div class="container">
+			<span class="teal-text">© 2019 Todos os direitos reservados - Guilherme Nunes Rosa</span>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
