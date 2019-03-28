@@ -7,24 +7,13 @@
 	<!-- Meta declaration -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
-
-	<!-- Font Awesome Icons -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 	
 	<!-- Material Icons -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<!-- Materialize Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-	<!-- JS Configuration-->
-		<!-- JQuery -->
-		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-	    
-	    <!-- Materialize Compiled and minified JavaScript -->
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-	    
-	    <!-- Materialize JS functions-->
-	    <script src="static/js/main.js"></script>            
+           
 </head>
 <body>
 	<!-- Navbar -->
@@ -46,63 +35,131 @@
 	       	<li><a href="#" class="teal-text">Sobre nós</a></li>
 	       	<li><a href="#" class="teal-text">Contato</a></li>
 	  	</ul>
-	<!-- Main header -->
-		<div class="row">
-			<picture>
-				<source srcset="static/img/banner/pequeno.png" media="(max-width: 375px)">
-				<source srcset="static/img/banner/grande.png" media="(min-width: 768px)">
-				<img srcset="static/img/banner/medio.png" class="responsive-img">
-			</picture>
+	<!-- Main Carousel -->
+		<section class="black">
+			<div class="carousel carousel-slider" data-indicators="true">
+		    	<div class="carousel-fixed-item">
+		      		<div class="container">
+		        		<a href="" class="btn teal">Consulte o regulamento</a>
+		      		</div>
+		    	</div>
+			    <div class="carousel-item white lighten-2 white-text" href="#one!" style="background: url('static/img/banner/bg1.jpg') no-repeat fixed center; background-size: cover;">
+			      	<div class="container">
+			        	<h2>Parcerias com convênios</h2>
+			        	<h5 class="white-text">Clientes dos convênios Dr. Pet, Health for Pet, No Faro e Animed têm 20% de desconto em manipulados.</h5>
+			      	</div>  
+			    </div>
+			    <div class="carousel-item white darken-2 white-text" href="#two!" style="background: url('static/img/banner/bg2.jpg') no-repeat fixed center; background-size: cover;">
+			      	<div class="container">
+			        	<h2>Juntos somos mais</h2>
+			        	<h5 class="white-text">Indique um amigo para a PetFarma e 10% de desconto em manipulados e 20% do lucro da receita será destinado para a ONG Cão Sem Dono.</h5>
+			      	</div>  
+			    </div>
+			    <div class="carousel-item white white-text" href="#three!" style="background: url('static/img/banner/bg3.jpg') no-repeat fixed center; background-size: cover;">
+			      	<div class="container">
+			        	<h2>Quinta Pet</h2>
+			        	<h5 class="white-text">Todas as quintas-feiras descontos de 10% em todos produtos da loja.</h5>
+			      	</div>  
+			    </div>
+			    <div class="carousel-item white white-text" href="#four!" style="background: url('static/img/banner/bg4.jpg') no-repeat fixed center; background-size: cover;">
+			      	<div class="container">
+			        	<h2>Vale-Compras</h2>
+			        	<h5 class="white-text">A cada R$100,00 em compras na loja concorra a um vale compras de R$200,00 a cada 15 dias.</h5>
+			      	</div>  
+			    </div>
+		  	</div>
+		</section>
+	<!-- Gitter Phone Link -->
+		<div class="fixed-action-btn">
+			<a class="btn-floating btn-large teal" href="tel:11941462167">
+				<i class="large material-icons">phone</i>
+			</a>
 		</div>
-	<!-- Main content -->
+	<!-- Main Text -->
 		<div class="container">
 			<div class="row">
 				<div class="col s12 center">
-					<h4><strong>Desenvolvendo uma vida melhor para seu Pet</strong></h4>
+					<h4><strong>Desenvolvendo uma vida melhor para seu Pet</strong></h4><br>
+					<div class="row">
+						<div class="col m3 s6 center">
+							<img src="static/img/cachorro.svg" style="width: 100px;">
+							<h6><strong>Cães</strong></h6>
+						</div>
+						<div class="col m3 s6 center">
+							<img src="static/img/gato.svg" style="width: 100px;">
+							<h6><strong>Gatos</strong></h6>
+						</div>
+						<div class="col m3 s6 center">
+							<img src="static/img/hamster.svg" style="width: 100px;">
+							<h6><strong>Roedores</strong></h6>
+						</div>
+						<div class="col m3 s6 center">
+							<img src="static/img/tartaruga.svg" style="width: 100px;">
+							<h6><strong>Répteis</strong></h6>
+						</div>
+					</div>
 					<p>A paixão por fazer cada vez melhor nos orienta em cada passo na direção de uma vida mais saudável para os animais. Através de pesquisa, desenvolvimento e inovação buscamos diariamente novos caminhos e novas soluções para ser a marca sinônimo de saúde animal.</p>
 					<p>Somos focados em proporcionar o melhor tratamento para os animais e a máxima confiança para seus proprietários através da Manipulação Veterinária. Buscamos a excelência e a máxima qualidade em cada novo princípio pesquisado e medicamento manipulado. A gota exata de medicamento para um tratamento eficaz que restabeleça a saúde animal e maximize o tempo de vida dos nossos animais companheiros.</p>
 					<p>Para a PetFarma, um animal saudável é muito mais do que um animal livre de doenças. Para nós, a saúde está acima de tudo no amor e na alegria que os animais espalham a sua volta. Conveniência, alegria e segurança para que os nossos animais vivam felizes, cercados de amor e proteção. Por isso, o cuidado com sua saúde e bem-estar estão presentes em cada medicamento manipulado.</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12 center">
-					<h4><strong>Soluções sob medida para seu amigo!</strong></h4><br>
+				<div class="col s12 m3">
+					<div class="card">
+						<div class="card-image">
+							<img src="static/img/cards/cd1.jpg">
+							<span class="card-title">Produtos</span>
+						</div>
+						<div class="card-content">
+							<p>Conheça nossa linha de produtos completa</p>
+						</div>
+						<div class="card-action">
+							<a href="" class="btn teal">Produtos</a>
+						</div>
+					</div>
 				</div>
-				<div class="col m3 s6 center">
-					<img src="static/img/cachorro.svg" style="width: 100px;">
-					<h6><strong>Cães</strong></h6>
+				<div class="col s12 m3">
+					<div class="card">
+						<div class="card-image">
+							<img src="static/img/cards/cd2.jpg">
+							<span class="card-title">Sobre nós</span>
+						</div>
+						<div class="card-content">
+							<p>Saiba tudo sobre nossa empresa</p>
+						</div>
+						<div class="card-action">
+							<a href="" class="btn teal">Sobre nós</a>
+						</div>
+					</div>
 				</div>
-				<div class="col m3 s6 center">
-					<img src="static/img/gato.svg" style="width: 100px;">
-					<h6><strong>Gatos</strong></h6>
+				<div class="col s12 m3">
+					<div class="card">
+						<div class="card-image">
+							<img src="static/img/cards/cd3.jpg">
+							<span class="card-title">Contato</span>
+						</div>
+						<div class="card-content">
+							<p>Entre em contato com a nossa equipe</p>
+						</div>
+						<div class="card-action">
+							<a href="" class="btn teal">Contato</a>
+						</div>
+					</div>
 				</div>
-				<div class="col m3 s6 center">
-					<img src="static/img/hamster.svg" style="width: 100px;">
-					<h6><strong>Roedores</strong></h6>
+				<div class="col s12 m3">
+					<div class="card">
+						<div class="card-image">
+							<img src="static/img/cards/cd4.jpg">
+							<span class="card-title">Acompanhe seu pedido</span>
+						</div>
+						<div class="card-content">
+							<p>Saiba o status do seu pedidio online</p>
+						</div>
+						<div class="card-action">
+							<a href="" class="btn teal">Acompanhe</a>
+						</div>
+					</div>
 				</div>
-				<div class="col m3 s6 center">
-					<img src="static/img/tartaruga.svg" style="width: 100px;">
-					<h6><strong>Répteis</strong></h6>
-				</div>
-			</div>
-			<div class="row">
-				<div class="card">
-					<div class="card-content">
-				    	<h5 class="center">Nossa linha completa de produtos e formulações com a melhor matéria prima e uma equipe treinada e pronta para te atender.</h5>
-				    </div>
-				    <div class="card-tabs">
-				    	<ul class="tabs tabs-fixed-width">
-					        <li class="tab"><a class="active" href="#comprimidos">Comprimidos</a></li>
-					        <li class="tab"><a href="#vitamina">Vitaminas e suplementos</a></li>
-					        <li class="tab"><a href="#pomada">Pomadas</a></li>
-				      	</ul>
-				    </div>
-				    <div class="card-content grey lighten-4">
-				      	<div id="vitamina">vitaminas</div>
-				      	<div id="comprimidos">comprimidos</div>
-				      	<div id="pomada">pomadas</div>
-				    </div>
-				  </div>
 			</div>
 		</div>
 	<!-- Footer -->
@@ -112,24 +169,36 @@
 					<div class="col m4 s12 center">
 						<h5 class="pink-text">Redes Sociais</h5>
 						<ul>
-							<li class="teal-text">Facebook</li>
-							<li class="teal-text">Instagram</li>
-							<li class="teal-text">Youtube</li>
+							<li class="teal-text"><a href="">Facebook</a></li>
+							<li class="teal-text"><a href="">Instagram</a></li>
+							<li class="teal-text"><a href="">Youtube</a></li>
 						</ul>
 					</div>
 					<div class="col m4 s12 center">
 						<h5 class="pink-text">Localização</h5>
 						<ul>
-							<li class="teal-text">Avenida Armando Arruda Pereira da Silva, 2308</li>
-							<li class="teal-text">São Paulo - SP</li>
+							<li class="teal-text">
+								<a href="https://goo.gl/maps/Uj6iT8wmknu" target="_blank">Av. Eng. Armando de Arruda Pereira, 2308 <br> Jabaquara <br> São Paulo</a>
+							</li>
 						</ul>
 					</div>
 					<div class="col m4 s12 center">
 						<h5 class="pink-text">Contato</h5>
 						<ul>
-							<li class="teal-text">(11) 3333-4444</li>
-							<li class="teal-text">(11) 95555-5555</li>
-							<li class="teal-text">contato@petfarma.com.br</li>
+							<li class="teal-text">
+								<a href="tel:1194146-2167">(11) 94146-2167</a>
+							</li>
+							<li class="teal-text">
+								<a href="mailto:guilherme-nunes@live.com">guilherme-nunes@live.com</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col s12 center">
+						<h5 class="pink-text ">Formas de pagamento</h5>
+						<ul>
+							<li>
+								<img src="static/img/footer/footer.png" style="height: 50px;">
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -140,5 +209,14 @@
 				</div>
 			</div>
 		</footer>
+	<!-- JS Configuration-->
+		<!-- JQuery -->
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	    
+	    <!-- Materialize Compiled and minified JavaScript -->
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	    
+	    <!-- Materialize JS functions-->
+	    <script src="static/js/init.js"></script> 
 </body>
 </html>
