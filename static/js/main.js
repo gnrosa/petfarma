@@ -1,7 +1,7 @@
 $(document).ready(function(){
-  $('.parallax').parallax();
+  $('.sidenav').sidenav();
 });
 
 $(document).ready(function(){
-  $('.sidenav').sidenav();
+  $('.tabs').tabs();
 });
